@@ -16,6 +16,35 @@
   background-color: #fff;
 }
 
+.box{
+  display: flex;
+  margin: 40px 80px;
+  padding: 32px;
+  background: rgb(245, 245, 245);
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(177, 177, 177);
+  border-radius: 8px;
+}
+
+.notice{
+  width: 120px;
+  padding-right: 32px;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.notice-right{
+  padding-left: 32px;
+  border-left: 1px solid rgb(177, 177, 177);
+}
+
+.notice_titile{
+  text-decoration: underline red;
+  color: red;
+  font-size: 20px;
+}
+
 .main{
   max-width: 1366px;
   padding-top: 104px;
@@ -292,6 +321,24 @@ hr{
     padding: 0;
   }
 
+  .box{
+    margin: 40px 0px;
+    padding: 26px;
+  }
+
+  .notice{
+    font-size: 14px;
+  }
+  .notice-right{
+  margin-top: 10px;
+  padding-left: 0px;
+  border-left: 0px solid rgb(177, 177, 177);
+}
+
+.notice-right>p{
+  font-size: 14px;
+}
+
   .main{
     padding-top: 57px;
   }
@@ -341,6 +388,10 @@ hr{
     width: 100%;
     height: auto;
     object-fit: cover;
+  }
+
+  .box{
+    padding: 18px;
   }
 
   .title>img{
