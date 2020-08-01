@@ -339,7 +339,7 @@ hr{
 @media screen and (max-width: 768px) {
   .carousel-item>img{
     width: 100%;
-    height: auto;
+    height: 350px;
     object-fit: cover;
   }
 
